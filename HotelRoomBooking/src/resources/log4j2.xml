@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+		<!-- File Appender -->
+		<File name="LogFile" fileName="log/ErrorLog.log" append="true">
+			<PatternLayout pattern="%d{dd-MMM-yyyy HH:mm:ss.SSS}  %level  [%t] %logger{36} [%M] - %msg%n%ex%n" />
+		</File>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="application" level="ERROR" additivity="false">
+			<AppenderRef ref="LogFile" />
+		</Logger>
+	
+	</Loggers>
+</Configuration>

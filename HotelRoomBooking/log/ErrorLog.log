@@ -1,0 +1,12 @@
+26-Feb-2019 13:45:49.063  ERROR  [main] application.DataProvider [addBooking] - ORA-00947: not enough values
+
+
+26-Feb-2019 13:46:41.838  ERROR  [main] application.DataProvider [addBooking] - ORA-00001: unique constraint (ER1003.JDBC_CUSTOMER_ID_PK) violated
+
+
+26-Feb-2019 13:46:57.343  ERROR  [main] application.DataProvider [addBooking] - ORA-00001: unique constraint (ER1003.JDBC_PHONENUMBER_UNIQUE) violated
+
+
+26-Feb-2019 13:47:09.947  ERROR  [main] application.DataProvider [addBooking] - ORA-00001: unique constraint (ER1003.JDBC_PHONENUMBER_UNIQUE) violated
+
+
